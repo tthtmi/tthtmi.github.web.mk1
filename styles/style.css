@@ -24,9 +24,7 @@ img[src]{
     margin: 0 auto;
 }
 html {
-    /*基础字号为 10 像素 */
     font-size: 20px;
-    /* Google fonts 输出的 CSS */
     font-family: 'Noto Serif SC', sans-serif;
   }
 h1 {
