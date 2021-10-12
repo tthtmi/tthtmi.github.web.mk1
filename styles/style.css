@@ -28,19 +28,29 @@ html {
     font-size: 20px;
     /* Google fonts 输出的 CSS */
     font-family: 'Noto Serif SC', sans-serif;
-    background-color: whitesmoke;
   }
-  h1 {
+h1 {
     margin: 0;
+    padding: 20;
+    color: lightseagreen;
+    text-shadow: 1px 1px 3px black;
+    font-size: 60px;
+    text-align: center;
+  }
+main {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+  }
+h2 {
+    margin: auto;
     padding: 20;
     color: red;
     text-shadow: 1px 1px 3px black;
     font-size: 60px;
     text-align: center;
   }
-  body {
-    width: 600px;
+iframe{
+    display: block;
     margin: 0 auto;
-    padding: 0 20px 20px 20px;
-  }
-  
+}
