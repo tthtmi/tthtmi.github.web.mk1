@@ -41,6 +41,7 @@ main {
     width: 600px;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
+    font-family: 'Inter', sans-serif;
   }
 h2 {
     margin: auto;
@@ -50,7 +51,37 @@ h2 {
     font-size: 60px;
     text-align: center;
   }
+h3 {
+    margin: auto;
+    padding: 20;
+    color: lightskyblue;
+    text-shadow: 1px 1px 3px black;
+    font-size: 20px;
+    text-align: center;
+  }
 iframe{
     display: block;
     margin: 0 auto;
 }
+.card {
+    display: block;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(2px);
+	backdrop-filter: blur(2px);
+    border-radius: 1rem;
+  }
+  
+.card-title {
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+  }
+a {
+    color: #4d4ae8;
+    text-decoration: none;
+    font-size: 1rem;
+  }
