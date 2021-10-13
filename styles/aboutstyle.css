@@ -1,0 +1,88 @@
+p {
+    color: black;
+    width: 600px;
+    font-size: 16px;
+    /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 1;
+    letter-spacing: 1px;
+    padding: 0 20px 0px 20px;
+  }
+li,ul {
+    color: lightskyblue;
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1px;
+}  
+img[src]{
+    width: 300px;
+    height: auto;
+    border: 1px solid red;
+    display: block;
+    margin: 0 auto;
+}
+html {
+    /*基础字号为 10 像素 */
+    font-size: 20px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Noto Serif SC', sans-serif;
+  }
+h1 {
+    margin: 0;
+    padding: 20;
+    color: lightseagreen;
+    text-shadow: 1px 1px 3px black;
+    font-size: 60px;
+    text-align: center;
+  }
+main {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    font-family: 'Inter', sans-serif;
+  }
+h2 {
+    margin: auto;
+    padding: 20;
+    color: red;
+    text-shadow: 1px 1px 3px black;
+    font-size: 60px;
+    text-align: center;
+  }
+h3 {
+    margin: auto;
+    padding: 20;
+    color: lightskyblue;
+    text-shadow: 1px 1px 3px black;
+    font-size: 20px;
+    text-align: center;
+  }
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+.card {
+    display: block;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(2px);
+	backdrop-filter: blur(2px);
+    border-radius: 1rem;
+  }
+  
+.card-title {
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+  }
+a {
+    color: #4d4ae8;
+    text-decoration: none;
+    font-size: 1rem;
+  }
