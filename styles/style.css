@@ -2,22 +2,21 @@ p {
     color: black;
     width: 600px;
     font-size: 16px;
-    /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
     line-height: 1;
     letter-spacing: 1px;
-    text-align: center;
+    padding: 0 20px 0px 20px;
+    font-family: 'Noto Serif SC', sans-serif;
   }
 li{
-    color: blueviolet;
+    color: lightskyblue;
     width: 500px;
     height: 30px;
     font-size: 16px;
     line-height: 1;
     letter-spacing: 1px;
-    text-align: center;
 }  
 img[src]{
-    width: 300px;
+    width: 200px;
     height: auto;
     border: 1px solid red;
     display: block;
@@ -26,16 +25,17 @@ img[src]{
 html {
     /*基础字号为 10 像素 */
     font-size: 20px;
-    /* Google fonts 输出的 CSS */
-    font-family: 'Noto Serif SC', sans-serif;
   }
 h1 {
     margin: 0;
     padding: 20;
-    color: lightseagreen;
-    text-shadow: 1px 1px 3px black;
+    background-image:-webkit-linear-gradient(141deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 12%, rgba(0,212,255,1) 100%); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent;
     font-size: 60px;
+    font-weight: 600;
     text-align: center;
+    font-family: 'Klee One', cursive;
   }
 main {
     width: 600px;
@@ -46,10 +46,13 @@ main {
 h2 {
     margin: auto;
     padding: 20;
-    color: red;
-    text-shadow: 1px 1px 3px black;
+    width: 300;
+    background-image:-webkit-linear-gradient(135deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent;
     font-size: 60px;
     text-align: center;
+    font-family: 'Klee One', cursive;
   }
 h3 {
     margin: auto;
@@ -63,25 +66,45 @@ iframe{
     display: block;
     margin: 0 auto;
 }
-.card {
-    display: block;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, .7);
-	-webkit-backdrop-filter: blur(2px);
-	backdrop-filter: blur(2px);
-    border-radius: 1rem;
-  }
-  
-.card-title {
-    display: block;
-    margin: 0 auto;
-    padding: 2rem;
-    margin-top: 0;
-    margin-bottom: .5rem;
-    font-size: 1.2rem;
-  }
 a {
     color: #4d4ae8;
     text-decoration: none;
     font-size: 1rem;
   }
+a:hover {
+    color:black;
+}   
+.box {
+  display: block;
+  position: relative;
+  top: -430px;
+  right: 200px;
+  border: 1px solid black;
+  background: rgba(255, 255, 255, .7);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border-radius: 1rem;
+}
+.box1 {
+  display: block;
+  position: relative;
+  left: 300px;
+  top: 23px;
+  border: 1px solid black;
+  background: rgba(255, 255, 255, .7);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border-radius: 1rem;
+}
+.box2 {
+  display: block;
+  width: 1000px;
+  right: 200px;
+  position: relative;
+  top: 10px;
+  border: 1px solid black;
+  background: rgba(255, 255, 255, .7);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border-radius: 1rem;
+}
